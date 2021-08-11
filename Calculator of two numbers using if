@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<stdib.h>
+Int main(){
+float x,y,
+char operator,again;
+do{
+printf("enter the numbers\n");
+scanf("%f%f",&x,&y);
+print("enter the add \n or enter the subtraction\n orenter the multiply \n or enter the divide\n");
+fflush(stdin); and
+if(operator=='+');
+{
+printf("in sum =%f\n",x+y);
+}
+elseif(operator=='-');
+{
+printf("\n difference=%f\n,x-y");
+}
+elseif(operator=='/')
+{
+printf("\n division=/f\n,x/y");
+}
+elseif(operator=='*')
+{
+printf("\n multiplication=%f\n,x*y");
+}
+else
+{
+Print ("\n i valid entry");
+}
+Printf("press y to again use it and n to exit");
+Scanf("%c,&again");
+}
+while (again =='y'&& again!='n');
+printf("%c",again);
+get char ();
+return 0
+}
