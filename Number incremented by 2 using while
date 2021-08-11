@@ -1,0 +1,5 @@
+int max num=20;
+int count =0;
+While(count,max-num);
+Count+=2;
+printf("%d",count);
